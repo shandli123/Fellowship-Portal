@@ -1,0 +1,42 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - application_progress
+  - health
+  - social_emotional_learning
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_health:
+  - text: "The menstrual cycle is more than just the period. In fact, the period is just the first phase of the cycle. The menstrual cycle is actually made up of two cycles that interact and overlap—one happening in the ovaries and one in the uterus. The brain, ovaries, and uterus work together and communicate through hormones (chemical signals sent through the blood from one part of the body to another) to keep the cycle going."
+
+  utter_social_emotional_learning:
+  - text: "Short term solutions to control emotions is too distract oneself by various techniques such by diverting one's mind by doing various activites such as participating in sports and games."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."    
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,12 @@
+# To install run 'pip install -r requirements.txt'
+Django
+python-decouple
+asgiref
+django-extensions
+graphviz
+protobuf
+pydot
+pyparsing
+pytz
+six
+sqlparse
