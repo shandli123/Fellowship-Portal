@@ -18,8 +18,8 @@ Organizational Management System developed to track and monitor the progress of 
 1. Install virtualenv - pip install virtualenv
    $ py -m venv myenv
 3. $ myenv\scripts\activate.bat ( use .ps1 for powershell)
-4. $ git clone https://github.com/cfg2india2021/team-64.git
-5. cd team-64
+4. $ git clone https://github.com/shandli123/Fellowship-Portal/tree/main/management
+5. cd management
 6. Install requirements.txt 
    $ pip install -r requirements.txt
 6. Then move on to the folder where manage.py is present
